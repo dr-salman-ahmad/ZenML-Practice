@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "zenml practice"
+version = "0.1.0"
+description = "This is just a practice project"
+authors = ["Salman Ahmad <ssalmanmughal73@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+zenml = "^0.66.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
